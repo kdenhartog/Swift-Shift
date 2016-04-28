@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //app title bars *not seen on activities*
+    <string name="app_name">Swift Shift</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_instructions">instructions</string>
+    <string name="title_activity_game">game</string>
+    <string name="title_activity_score">score</string>
+    <string name="title_activity_score_score">score_score</string>
+    <string name="title_activity_score_screen">score_screen</string>*/
+
+    //highscores activity
+    <string name="topScore">Top 10 Scores</string>
+    <string name="newHighScore">NEW HIGH SCORE!!!</string>
+    <string name="home">Home</string>
+    <string name="tryagain">Try Again</string>
+
+    //game activity
+    <string name="score">Score:</string>
+    <string name="timeText">Time:</string>
+    <string name="stopTime">Time is up!</string>
+    <string name="start">Begin!</string>
+    <string name="countDown">Start in:</string>
+    <string name="question">\?</string>
+    <string name="shift3Left">&gt;&gt;&gt;</string>
+    <string name="shift3Right">&lt;&lt;&lt;</string>
+    <string name="shift3Down">vvv</string>
+    <string name="shift3Up">^^^</string>
+    //Instructions activity
+    <string name="instructions">Instructions</string>
+
+    //ad ID
+    <string name="topAdId">ca-app-pub-7082808492087541/7039796710</string>
+    <string name="bottomAdId">ca-app-pub-7082808492087541/8516529915</string>
+
+    //home activity
+    <string name="highScore">Highscores</string>
+    <string name="newGame">New Game</string>
+    <string name="logo">logo</string>
+</resources>

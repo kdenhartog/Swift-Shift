@@ -1,0 +1,27 @@
+<resources>
+    <color name="red">#d32f2f</color>
+    <color name="green">#4CAF50</color>
+    <color name="yellow">#FDD835</color>
+    <color name="blue">#2196F3</color>
+    <color name="grey">#546E7A</color>
+    <color name="black">#212121</color>
+    <color name="purple">#5E35B1</color>
+    <color name="orange">#e67e22</color>
+    <color name="bRed">#FF3D00</color>
+    <color name="bGreen">#76FF03</color>
+    <color name="white">#fafafa</color>
+
+    <integer-array name="androidcolors">
+        <item>@color/red</item>
+        <item>@color/green</item>
+        <item>@color/yellow</item>
+        <item>@color/blue</item>
+        <item>@color/grey</item>
+        <item>@color/black</item>
+        <item>@color/purple</item>
+        <item>@color/orange</item>
+        <item>@color/bRed</item>
+        <item>@color/bGreen</item>
+        <item>@color/white</item>
+    </integer-array>
+</resources>

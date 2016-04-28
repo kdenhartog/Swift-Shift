@@ -1,0 +1,113 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/screenLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="@color/black"
+    android:clickable="false"
+    android:textAlignment="center">
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="left|top"
+        android:paddingTop="5dp"
+        android:text="@string/score"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/clock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/score"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="5dp"
+        android:text="@string/timeText"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/clock"
+        android:id="@+id/buttonLayout">
+
+        <Space
+            android:id="@+id/space"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+
+        <Button
+            android:id="@+id/green"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_below="@+id/space"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toLeftOf="@+id/space"
+            android:layout_toStartOf="@+id/space"
+            android:background="@drawable/greengamebtn"
+            android:elevation="4dp"
+            android:theme="@style/AppTheme" />
+
+        <Button
+            android:id="@+id/blue"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_below="@+id/space"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="10dp"
+            android:layout_toEndOf="@+id/space"
+            android:layout_toRightOf="@+id/space"
+            android:background="@drawable/bluegamebtn"
+            android:elevation="4dp"
+            android:theme="@style/AppTheme" />
+
+        <Button
+            android:id="@+id/yellow"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_above="@+id/space"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="10dp"
+            android:layout_toEndOf="@+id/space"
+            android:layout_toRightOf="@+id/space"
+            android:background="@drawable/yellowgamebtn"
+            android:elevation="4dp"
+            android:theme="@style/AppTheme" />
+
+        <Button
+            android:id="@+id/red"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_above="@+id/space"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toLeftOf="@+id/space"
+            android:layout_toStartOf="@+id/space"
+            android:background="@drawable/redgamebtn"
+            android:elevation="4dp"
+            android:theme="@style/AppTheme"
+            android:typeface="monospace" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
